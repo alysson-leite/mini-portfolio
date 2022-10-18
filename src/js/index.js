@@ -24,10 +24,9 @@ abas.forEach(aba => {
         infoSelecionada.classList.remove('selecionado');
 
         const idInformacaoDaAba = `informacao-${aba.id}`;
-        console.log(aba.id)
-        console.log(idInformacaoDaAba)
+        
         const informacaoASerMostrada = document.getElementById(idInformacaoDaAba);
-        console.log(informacaoASerMostrada)
+        
         informacaoASerMostrada.classList.add('selecionado');
     })
 
